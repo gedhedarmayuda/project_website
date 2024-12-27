@@ -4,41 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">Navbar</a>
+            <a href="#" class="navbar-brand h2">Portfolio</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a href="#" class="nav-link active" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Link</a>
+                        <a href="#" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"></a>
+                        <a href="#" class="nav-link">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>    
-    <section class="container">
-        <div class="row">
-            <div class="col">
-                <img src="/assets/logo.jpg" alt="pr">
-            </div>
-            <div class="col">
-                <h1>NAMA ANDA</h1>
-                <h3>Posisi Anda</h3>
-            </div>
+    <section class="row header">
+        <div class="col">
+            <img src="/assets/profil.jpg" alt="foto profil" class="img-size">
         </div>
+        <div class="col">
+            <h1 class="name-head">NAMA <span class="span-name">ANDA</span></h1>
+            <h class="jobdesk">Posisi Anda</h><br>
+            <a href="#" class="btn btn-primary">Download CV</a>
     </section>
+
+    <section>
+        <h3 class="h3">Skill</h3>
+        ul
+    </section>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
 </body>
 </html>
